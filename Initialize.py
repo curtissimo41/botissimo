@@ -1,6 +1,6 @@
-from Socket import sendMessage
+from Socket import send_message
 
-def joinRoom(s):
+def join_room(s):
     readbuffer = ''
     Loading = True
 
@@ -13,7 +13,7 @@ def joinRoom(s):
         for line in temp:
             Loading = loadingComplete(line)
 
-    sendMessage(s, 'We in there boiii (Botissimo, v. 1.0)')
+    # send_message(s, 'We in there boiii (Botissimo, v. 1.1)')
 
 def loadingComplete(line):
     if('End of /NAMES list' in line):
