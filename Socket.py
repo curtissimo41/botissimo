@@ -11,6 +11,10 @@ def open_socket():
     s.connect((HOST, PORT))
     s.send(bytes('PASS ' + PASS + '\r\n', 'utf-8'))
     s.send(bytes('NICK ' + IDENT + '\r\n', 'utf-8'))
+
+    s.send(bytes('CAP REQ :twitch.tv/tags\r\n', 'utf-8'))
+    # s.send(bytes('CAP REQ :twitch.tv/commands\r\n', 'utf-8'))
+
     s.send(bytes('JOIN #' + CHANNEL + '\r\n', 'utf-8'))
     return s
 

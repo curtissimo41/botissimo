@@ -13,7 +13,7 @@ def join_room(s):
         for line in temp:
             Loading = loadingComplete(line)
 
-    # send_message(s, 'We in there boiii (Botissimo, v. 1.1)')
+    send_message(s, 'We in there boiii (Botissimo, v. 1.0)')
 
 def loadingComplete(line):
     if('End of /NAMES list' in line):
