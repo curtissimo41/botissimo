@@ -2,6 +2,7 @@ import requests
 from Settings import CHANNEL
 from bs4 import BeautifulSoup
 import json
+from datetime import datetime
 
 
 def get_bttv_emotes():
@@ -11,24 +12,25 @@ def get_bttv_emotes():
 
 
 def get_ffz_emotes():
-	url = 'https://api.frankerfacez.com/v1/room/' + CHANNEL
+	url = 'https://decapi.me/ffz/emotes/' + CHANNEL
 	response = requests.get(url)
-	soup = BeautifulSoup(response.content, "html.parser").prettify()
-	soup_dict = json.loads(soup)
-	room_emote_set = soup_dict['room']['set']
-	return json.loads(soup)['sets'][str(room_emote_set)]['emoticons']
+	return BeautifulSoup(response.content, "html.parser").get_text()
 
 
 def get_current_date():
-	pass
+	return datetime.now().strftime('%m/%d/%Y')
 
 
 def get_current_game():
-	pass
+	url = 'https://decapi.me/twitch/game/' + CHANNEL
+	response = requests.get(url)
+	return BeautifulSoup(response.content, "html.parser").get_text()
 
 
 def get_stream_title():
-	pass
+	url = 'https://decapi.me/twitch/status/' + CHANNEL
+	response = requests.get(url)
+	return BeautifulSoup(response.content, "html.parser").get_text()
 
 
 def set_current_game():

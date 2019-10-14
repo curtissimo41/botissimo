@@ -1,0 +1,70 @@
+{
+  "!anime": {
+    "cooldown": 60,
+    "return": "Visit https://kitsu.io/users/curtissimo/library to check out which animu I've seen, am currently watching, & plan to watch!"
+  },
+  "!band": {
+    "cooldown": 60,
+    "return": "🎤 Tuturu curtisLewd 🎸 MakiShy ⌨️"
+  },
+  "!bondwithme": {
+    "cooldown": 60,
+    "return": "WutFace https://www.youtube.com/watch?v=LB871SVYMhI WutFace"
+  },
+  "!brush": {
+    "cooldown": 60,
+    "return": "NiceMoves WAG NiceMoves THAT NiceMoves BRUSH NiceMoves"
+  },
+  "!dancebitches": {
+    "cooldown": 60,
+    "return": "NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves"
+  },
+  "!discord": {
+    "cooldown": 60,
+    "return": "Tuturu https://discord.gg/T7Bhj9z Tuturu"
+  },
+  "!dontworry": {
+    "cooldown": 60,
+    "return": "FeelsOkayMan https://clips.twitch.tv/HardLuckyWormUncleNox FeelsOkayMan"
+  },
+  "!drop": {
+    "cooldown": 60,
+    "return": "/me ┏(-_-)┓ ┏(-_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏( -_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏( -_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛"
+  },
+  "!host": {
+    "cooldown": 60,
+    "return": "haHAA hey streamer haHAA can you host me after this? haHAA trying to reach affiliate, thanks haHAA"
+  },
+  "!kylf": {
+    "cooldown": 60,
+    "return": "/me Gotta give big papi Kylf the guud succ"
+  },
+  "!legends": {
+    "cooldown": 60,
+    "return": "Users who have greatly improved some of my playthroughs through helpful tips and advice are: itspieflavor (Tales of Symphonia), BlasianMaestro (Mega Man X), & dreadpirateht (Final Fantasy VIII)"
+  },
+  "!lotus": {
+    "cooldown": 60,
+    "return": "slash ban Lotus WutFace"
+  },
+  "!over": {
+    "cooldown": 60,
+    "return": "SwiftRage https://soundcloud.com/seth-joy/cheese05-ovah-trap-remix SwiftRage (courtesy of cheese FeelsOkayMan )"
+  },
+  "!playtwos": {
+    "cooldown": 60,
+    "return": "In an attempt to keep things s p i c y & fresh, I will be alternating between one longer, more intense game and one shorter, simpler game at a time! Current pairing: Persona 5 (Long) / Donkey Kong Country 3 (Short)"
+  },
+  "!shakeit": {
+    "cooldown": 60,
+    "return": "NiceMoves https://www.youtube.com/watch?v=_wjFahULCK8 NiceMoves"
+  },
+  "!tumblingdown": {
+    "cooldown": 60,
+    "return": "/me I know, I know I've let you down FeelsBadMan 🕯️ I've been a fool to myself FeelsBadMan 🕯️ I thought that I could live for no one else FeelsBadMan 🕯️ But now through all the hurt and pain FeelsBadMan 🕯️ It's time for me to respect FeelsBadMan 🕯️ The ones who love me more than anything FeelsBadMan 🕯️ So with sadness in my heart FeelsBadMan 🕯️ Feel the best thing I could do FeelsBadMan 🕯️ Is end it all and leave forever FeelsBadMan 🕯"
+  },
+  "!upwardsfire": {
+    "cooldown": 60,
+    "return": "FeelsWeirdMan"
+  }
+}

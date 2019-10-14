@@ -29,7 +29,5 @@ def get_message(line):
     Returns: msg (str) - most recent message
     """
     separate = line.split(':')
-    for item in separate:
-        print(item + '\n')
-    msg = separate[2].replace('\r', ' ').split(' ')
+    msg = separate[len(separate) - 1].split('\r')[0].split(' ')
     return msg
