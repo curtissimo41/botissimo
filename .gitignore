@@ -2,4 +2,4 @@
 .DS_Store
 __pycache__
 Settings.py
-Resources/quotes_dummy.txt
+Resources/quotes.txt

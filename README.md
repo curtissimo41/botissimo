@@ -3,7 +3,7 @@ Custom Twitch chatbot, created by curtissimo41 (twitch.tv/curtissimo41) using Py
 
 ## List of Commands
 
-* !addquote <spoken by> <quote> - adds new quote to the list
+* !addquote [spoken by] [quote] - adds new quote to the list
 * !anime - brings up link to my Kitsu page
 * !band - waifu band
 * !bondwithme - brings up link to "Jimmy Nutron Happy Family Happy Hour" YT video
@@ -14,7 +14,7 @@ Custom Twitch chatbot, created by curtissimo41 (twitch.tv/curtissimo41) using Py
 * !discord - brings up link to join my Discord server
 * !dontworry - brings up link to old clip
 * !drop - beat drop copypasta
-* !editquote <quote ID> <spoken by> <quote> - edits a specific quote in the list
+* !editquote [quote ID] [spoken by] [quote] - edits a specific quote in the list
 * !ffz - shows all FFZ emotes
 * !followage - returns the exact length of time a user has been following my channel
 * !host - copypasta
@@ -23,8 +23,9 @@ Custom Twitch chatbot, created by curtissimo41 (twitch.tv/curtissimo41) using Py
 * !lotus - copypasta
 * !over - brings up link to reset song
 * !playtwos - info about my playtwos stream plan
-* !quote <[opt] quote ID> - returns random (or specified) quote from the list
-* !remquote <quote ID> - removes specified quote from the list
+* !quote [(opt) quote ID] - returns random (or specified) quote from the list
+* !remquote [quote ID] - removes specified quote from the list
+* !sgdq - link to Kirby 64 SGDQ run
 * !shakeit - brings up link to "Shake It" by Metro Station on YT (for Pix fight)
 * !sudoku - times out user for 5 seconds
 * !tumblingdown - missed PB copypasta (from Komm Susser Tod)

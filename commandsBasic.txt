@@ -15,6 +15,10 @@
     "cooldown": 60,
     "return": "NiceMoves WAG NiceMoves THAT NiceMoves BRUSH NiceMoves"
   },
+  "!commands": {
+    "cooldown": 60,
+    "return": "The commands for this channel are listed in the README section on Botissimo's GitHub page! -> https://github.com/curtissimo41/botissimo"
+  },
   "!dancebitches": {
     "cooldown": 60,
     "return": "NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves"
@@ -54,6 +58,10 @@
   "!playtwos": {
     "cooldown": 60,
     "return": "In an attempt to keep things s p i c y & fresh, I will be alternating between one longer, more intense game and one shorter, simpler game at a time! Current pairing: Persona 5 (Long) / Donkey Kong Country 3 (Short)"
+  },
+  "!sgdq": {
+    "cooldown": 60,
+    "return": "Fun fact: I was on the couch for swordsmankirby's Kirby 64 100% at SGDQ 2019! Youtube video here -> https://www.youtube.com/watch?v=5yxiY7r9G0s"
   },
   "!shakeit": {
     "cooldown": 60,
