@@ -22,11 +22,15 @@ class Botissimo:
 	ffzEmotes = helpers.get_ffz_emotes()
 
 	# compile list of all channel commands
+	cmdListBasic = []
 	basicCommandJSON = {}
 	fileDir = os.path.dirname(os.path.realpath(__file__)) + '/'
 
 	with open(fileDir + 'commandsBasic.txt', encoding = 'utf-8') as basicCommandFile:
 		basicCommandJSON = json.load(basicCommandFile)
+
+	for cmd in basicCommandJSON:
+		cmdListBasic.append(cmd)
 
 
 	def __init__(self):
