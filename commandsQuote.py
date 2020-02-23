@@ -20,8 +20,7 @@ def addquote(arglist):
 
 		currentDate = get_current_date()
 		currentGame = get_current_game()
-		quote_to_add = '"' + quote + '" - ' + spokenBy + ' [' + currentGame + ', ' + \
-		               currentDate + ']'
+		quote_to_add = '"{0}" - {1} [{2}, {3}]'.format(quote, spokenBy, currentGame, currentDate)
 	except:
 		return 'Encountered a problem when creating the quote monakS'
 
@@ -29,7 +28,7 @@ def addquote(arglist):
 		with open(fileDir + 'Resources/quotes.txt', 'r+', encoding = 'utf-8') as f:
 			quote_num = len(f.readlines()) + 1
 			f.write(quote_to_add + '\n')
-		return 'Quote #' + str(quote_num) + ' by ' + spokenBy + ' has been added FeelsOkayMan 👍'
+		return 'Quote #{0} by {1} has been added FeelsOkayMan 👍'.format(str(quote_num), spokenBy)
 	except:
 		return 'Encountered a problem when opening the file to add the quote monakS'
 
@@ -59,7 +58,7 @@ def editquote(arglist):
 			if quote_id < 0 or quote_id >= len(lines):
 				return 'Quote does not exist FeelsWeirdMan'
 			oldQuoteInfo = lines[quote_id].split('[')[1]
-			newQuote = '"' + quote + '" - ' + spokenBy + ' [' + oldQuoteInfo
+			newQuote = '"{0}" - {1} [{2}'.format(quote, spokenBy, oldQuoteInfo)
 			lines[quote_id] = newQuote
 			f.seek(0)
 			f.truncate()
@@ -67,7 +66,7 @@ def editquote(arglist):
 	except:
 		return 'Encountered a problem when opening the file to edit the quote monakS'
 
-	return 'Quote #' + str(quote_id+1) + ' by ' + spokenBy + ' has been edited FeelsOkayMan 👍'
+	return 'Quote #{0} by {1} has been edited FeelsOkayMan 👍'.format(str(quote_id+1), spokenBy)
 
 
 def quote(arglist):
@@ -82,9 +81,10 @@ def quote(arglist):
 			quotes_list = f.readlines()
 			if quote_id < 0 or quote_id >= len(quotes_list):
 				quote_id = random.randrange(0, len(quotes_list))
-			return 'Quote #' + str(quote_id + 1) + ': ' + quotes_list[quote_id]
+			return 'Quote #{0}: {1}'.format(str(quote_id + 1), quotes_list[quote_id])
 	except:
 		return 'Could not access the quotes monakS'
+
 
 def remquote(arglist):
 	quote_id = -1
@@ -102,6 +102,6 @@ def remquote(arglist):
 			f.seek(0)
 			f.truncate()
 			f.writelines(lines)
-			return 'Quote #' + str(quote_id + 1) + ' successfully removed madnakS 👎'
+			return 'Quote #{0} successfully removed madnakS 👎'.format(str(quote_id + 1))
 	except:
 		return 'Could not remove quote monakS'

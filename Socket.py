@@ -25,4 +25,3 @@ def send_message(s, message):
     """
     messageTemp = bytes(('PRIVMSG #' + CHANNEL + ' :' + message), 'utf-8')
     s.send(messageTemp + b'\r\n')
-    print('Sent: ' + messageTemp.decode('utf-8'))
