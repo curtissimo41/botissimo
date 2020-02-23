@@ -1,78 +1,90 @@
 {
-  "!anime": {
-    "cooldown": 60,
-    "return": "Visit https://kitsu.io/users/curtissimo/library to check out which animu I've seen, am currently watching, & plan to watch!"
-  },
-  "!band": {
-    "cooldown": 60,
-    "return": "🎤 Tuturu curtisLewd 🎸 MakiShy ⌨️"
-  },
-  "!bondwithme": {
-    "cooldown": 60,
-    "return": "WutFace https://www.youtube.com/watch?v=LB871SVYMhI WutFace"
-  },
-  "!brush": {
-    "cooldown": 60,
-    "return": "NiceMoves WAG NiceMoves THAT NiceMoves BRUSH NiceMoves"
-  },
-  "!commands": {
-    "cooldown": 60,
-    "return": "The commands for this channel are listed in the README section on Botissimo's GitHub page! -> https://github.com/curtissimo41/botissimo"
-  },
-  "!dancebitches": {
-    "cooldown": 60,
-    "return": "NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves"
-  },
-  "!discord": {
-    "cooldown": 60,
-    "return": "Tuturu https://discord.gg/T7Bhj9z Tuturu"
-  },
-  "!dontworry": {
-    "cooldown": 60,
-    "return": "FeelsOkayMan https://clips.twitch.tv/HardLuckyWormUncleNox FeelsOkayMan"
-  },
-  "!drop": {
-    "cooldown": 60,
-    "return": "/me ┏(-_-)┓ ┏(-_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏( -_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏( -_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛ ┗(-_- )┓ ┗(-_-)┛ ┏(-_-)┓ ┏(-_-)┛"
-  },
-  "!host": {
-    "cooldown": 60,
-    "return": "haHAA hey streamer haHAA can you host me after this? haHAA trying to reach affiliate, thanks haHAA"
-  },
-  "!kylf": {
-    "cooldown": 60,
-    "return": "/me Gotta give big papi Kylf the guud succ"
-  },
-  "!legends": {
-    "cooldown": 60,
-    "return": "Users who have greatly improved some of my playthroughs through helpful tips and advice are: itspieflavor (Tales of Symphonia), BlasianMaestro (Mega Man X), & dreadpirateht (Final Fantasy VIII)"
-  },
-  "!lotus": {
-    "cooldown": 60,
-    "return": "slash ban Lotus WutFace"
-  },
-  "!over": {
-    "cooldown": 60,
-    "return": "SwiftRage https://soundcloud.com/seth-joy/cheese05-ovah-trap-remix SwiftRage (courtesy of cheese FeelsOkayMan )"
-  },
-  "!playtwos": {
-    "cooldown": 60,
-    "return": "In an attempt to keep things s p i c y & fresh, I will be alternating between one longer, more intense game and one shorter, simpler game at a time! Current pairing: Persona 5 (Long) / Donkey Kong Country 3 (Short)"
-  },
-  "!sgdq": {
-    "cooldown": 60,
-    "return": "Fun fact: I was on the couch for swordsmankirby's Kirby 64 100% at SGDQ 2019! Youtube video here -> https://www.youtube.com/watch?v=5yxiY7r9G0s"
-  },
-  "!shakeit": {
-    "cooldown": 60,
-    "return": "NiceMoves https://www.youtube.com/watch?v=_wjFahULCK8 NiceMoves"
-  },
-  "!tumblingdown": {
-    "cooldown": 60,
-    "return": "/me I know, I know I've let you down FeelsBadMan 🕯️ I've been a fool to myself FeelsBadMan 🕯️ I thought that I could live for no one else FeelsBadMan 🕯️ But now through all the hurt and pain FeelsBadMan 🕯️ It's time for me to respect FeelsBadMan 🕯️ The ones who love me more than anything FeelsBadMan 🕯️ So with sadness in my heart FeelsBadMan 🕯️ Feel the best thing I could do FeelsBadMan 🕯️ Is end it all and leave forever FeelsBadMan 🕯"
-  },
-  "!upwardsfire": {
-    "cooldown": 60,
-    "return": "FeelsWeirdMan"
-  }
+    "!anime": {
+        "cooldown": 60,
+        "return": "Visit https://kitsu.io/users/curtissimo/library to check out which animu I've seen, am currently watching, & plan to watch!"
+    },
+    "!band": {
+        "cooldown": 60,
+        "return": "\ud83c\udfa4 Tuturu curtisLewd \ud83c\udfb8 MakiShy \u2328\ufe0f"
+    },
+    "!bondwithme": {
+        "cooldown": 60,
+        "return": "WutFace https://www.youtube.com/watch?v=LB871SVYMhI WutFace"
+    },
+    "!brush": {
+        "cooldown": 60,
+        "return": "NiceMoves WAG NiceMoves THAT NiceMoves BRUSH NiceMoves"
+    },
+    "!commands": {
+        "cooldown": 60,
+        "return": "Pastebin w/ chat commands -> https://pastebin.com/wW7v9BpG"
+    },
+    "!dancebitches": {
+        "cooldown": 60,
+        "return": "NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves"
+    },
+    "!dha": {
+        "cooldown": 60,
+        "return": "Check out my Kirby 64 100% run from DreamHack Atlanta 2019! https://www.twitch.tv/noresetspeedrun/video/510204812"
+    },
+    "!discord": {
+        "cooldown": 60,
+        "return": "Tuturu https://discord.gg/T7Bhj9z Tuturu"
+    },
+    "!dontworry": {
+        "cooldown": 60,
+        "return": "FeelsOkayMan https://clips.twitch.tv/HardLuckyWormUncleNox FeelsOkayMan"
+    },
+    "!drop": {
+        "cooldown": 60,
+        "return": "/me \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f( -_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_-)\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f( -_-)\u251b \u2517(-_-)\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b"
+    },
+    "!host": {
+        "cooldown": 60,
+        "return": "haHAA hey streamer haHAA can you host me after this? haHAA trying to reach affiliate, thanks haHAA"
+    },
+    "!k64wr": {
+        "cooldown": 60,
+        "return": "I got the Kirby 64 100% WR on February 1, 2020 in a time of 1:07:46! Check it out here on YT -> https://youtu.be/dvTUyNCJZxw"
+    },
+    "!kylf": {
+        "cooldown": 60,
+        "return": "/me Gotta give big papi Kylf the guud succ"
+    },
+    "!legends": {
+        "cooldown": 60,
+        "return": "Users who have greatly improved some of my playthroughs through helpful tips and advice are: itspieflavor (Tales of Symphonia), BlasianMaestro (Mega Man X), & dreadpirateht (Final Fantasy VIII)"
+    },
+    "!lotus": {
+        "cooldown": 60,
+        "return": "slash ban Lotus WutFace"
+    },
+    "!over": {
+        "cooldown": 60,
+        "return": "SwiftRage https://soundcloud.com/seth-joy/cheese05-ovah-trap-remix SwiftRage (courtesy of cheese FeelsOkayMan )"
+    },
+    "!plans": {
+        "cooldown": 60,
+        "return": "Current stream plans: Persona 5 platinum trophy -> Paper Mario: TTYD First playthrough & Kirby 64 Any% Learning -> Begin Persona 5 Royal playthrough (March 31st)"
+    },
+    "!playtwos": {
+        "cooldown": 60,
+        "return": "In an attempt to keep things s p i c y & fresh, I will be alternating between one longer, more intense game and one shorter, simpler game at a time! Current pairing: Persona 5 (Long) / Donkey Kong Country 3 (Short)"
+    },
+    "!sgdq2019": {
+        "cooldown": 60,
+        "return": "Fun fact: I was on the couch for swordsmankirby's Kirby 64 100% at SGDQ 2019! Youtube video here -> https://www.youtube.com/watch?v=5yxiY7r9G0s"
+    },
+    "!shakeit": {
+        "cooldown": 60,
+        "return": "NiceMoves https://www.youtube.com/watch?v=_wjFahULCK8 NiceMoves"
+    },
+    "!tumblingdown": {
+        "cooldown": 60,
+        "return": "/me I know, I know I've let you down FeelsBadMan \ud83d\udd6f\ufe0f I've been a fool to myself FeelsBadMan \ud83d\udd6f\ufe0f I thought that I could live for no one else FeelsBadMan \ud83d\udd6f\ufe0f But now through all the hurt and pain FeelsBadMan \ud83d\udd6f\ufe0f It's time for me to respect FeelsBadMan \ud83d\udd6f\ufe0f The ones who love me more than anything FeelsBadMan \ud83d\udd6f\ufe0f So with sadness in my heart FeelsBadMan \ud83d\udd6f\ufe0f Feel the best thing I could do FeelsBadMan \ud83d\udd6f\ufe0f Is end it all and leave forever FeelsBadMan \ud83d\udd6f"
+    },
+    "!upwardsfire": {
+        "cooldown": 60,
+        "return": "FeelsWeirdMan"
+    }
 }

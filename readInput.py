@@ -4,10 +4,10 @@ def get_badges(line):
     Input: line (str) - current buffer line
     Returns: badges (list) - user's badges in the current chatroom
     """
-    badgeInfo = line.split(':', 2)[0].split(';')[1].split('=')[1].split(',')
+    badgeInfo = line.split('badges=')[1].split(';')[0].split(',')
     badges = []
     for badge in badgeInfo:
-        badges.append(badge.split(',')[0].split('/')[0])
+        badges.append(badge.split('/')[0])
     return badges
 
 
@@ -17,8 +17,7 @@ def get_user(line):
     Input: line (str) - current buffer line
 	Returns: user (str) - username
     """
-    separate = line.split(':', 2)
-    user = separate[1].split('!', 1)[0]
+    user = line.split('user-type=')[1].split(':')[1].split('!')[0]
     return user
 
 
@@ -28,6 +27,5 @@ def get_message(line):
     Input: line (str) - current buffer line
     Returns: msg (str) - most recent message
     """
-    separate = line.split(':')
-    msg = separate[len(separate) - 1].split('\r')[0].split(' ')
+    msg = line.split('PRIVMSG', 1)[1].split(':', 1)[1].split('\r')[0].split(' ')
     return msg

@@ -2,4 +2,6 @@
 .DS_Store
 __pycache__
 Resources/quotes.txt
+Resources/chatlog.txt
 Settings.py
+Botissimo.bat
