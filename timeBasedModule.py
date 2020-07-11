@@ -14,7 +14,9 @@ def runTBM(s):
                     cmdsOnCooldown.pop(cmd, None)
         except:
             pass
-        if (int(time.time()) - moduleStartTime) % 1800 == 0:
-            send_message(s, "If you're enjoying the stream, consider hitting the follow button to see when I go live "
-                            "in the future! Kappu")
-        time.sleep(1)
+        if (int(time.time()) - moduleStartTime) % 3600 == 0 and int(time.time()) != moduleStartTime:
+            send_message(s, "If you're enjoying the stream, be sure to hit the follow button to know when I'll be live "
+                            "next! Feel free to join our Discord as well to hangout offline -> "
+                            "https://discordapp.com/invite/T7Bhj9z FeelsOkayMan")
+            time.sleep(0.5)
+        time.sleep(0.5)

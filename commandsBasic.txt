@@ -3,17 +3,29 @@
         "cooldown": 60,
         "return": "Visit https://kitsu.io/users/curtissimo/library to check out which animu I've seen, am currently watching, & plan to watch!"
     },
-    "!band": {
+    "!backseating": {
         "cooldown": 60,
-        "return": "\ud83c\udfa4 Tuturu curtisLewd \ud83c\udfb8 MakiShy \u2328\ufe0f"
+        "return": "Do not backseat/give advice if I'm not looking for it. Assume all questions asked are rhetorical unless otherwise noted. Let this serve as your first warning; you will get timed out for 10 minutes for not listening."
+    },
+    "!beefraffle": {
+        "cooldown": 60,
+        "return": "tiredPepe"
     },
     "!bondwithme": {
         "cooldown": 60,
         "return": "WutFace https://www.youtube.com/watch?v=LB871SVYMhI WutFace"
     },
+    "!boring": {
+        "cooldown": 60,
+        "return": "Freakin' BORING \ud83e\udd18 ShoopDaWhoop"
+    },
     "!brush": {
         "cooldown": 60,
         "return": "NiceMoves WAG NiceMoves THAT NiceMoves BRUSH NiceMoves"
+    },
+    "!collection": {
+        "cooldown": 60,
+        "return": "Check out my bido jame collection! https://www.pricecharting.com/offers?seller=6i7mnyqtrakzmq7s2hjj7ht66i&status=collection"
     },
     "!commands": {
         "cooldown": 60,
@@ -21,7 +33,7 @@
     },
     "!dancebitches": {
         "cooldown": 60,
-        "return": "NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves PepePls dittoPride MagDance NiceMoves"
+        "return": "NiceMoves PepePls dittoPride MagDance RainbowPls KermiePls CrabPls PepeJamm NiceMoves PepePls dittoPride MagDance RainbowPls KermiePls CrabPls PepeJamm NiceMoves PepePls dittoPride MagDance RainbowPls KermiePls CrabPls PepeJamm NiceMoves PepePls dittoPride MagDance RainbowPls KermiePls CrabPls PepeJamm NiceMoves PepePls dittoPride MagDance RainbowPls KermiePls CrabPls PepeJamm NiceMoves PepePls dittoPride MagDance RainbowPls KermiePls CrabPls PepeJamm NiceMoves PepePls dittoPride MagDance"
     },
     "!dha": {
         "cooldown": 60,
@@ -39,13 +51,21 @@
         "cooldown": 60,
         "return": "/me \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f( -_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_-)\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f( -_-)\u251b \u2517(-_-)\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b \u2517(-_- )\u2513 \u2517(-_-)\u251b \u250f(-_-)\u2513 \u250f(-_-)\u251b"
     },
+    "!emulator": {
+        "cooldown": 60,
+        "return": "I try not to play games on emulator because I prefer original hardware and enjoy collecting physicals. No, this is not up for discussion. No, I don't care how good emulators are, or how good the graphics are. Yes, K64 is played on VC; this is necessary to compete for WR, and I do own the N64 copy anyway. Playing DS/3DS games on the computer sounds ridiculous to me, I have plenty of physical copies, and I'd be willing to pay for a 3DS capture card when available anyway."
+    },
     "!host": {
         "cooldown": 60,
         "return": "haHAA hey streamer haHAA can you host me after this? haHAA trying to reach affiliate, thanks haHAA"
     },
-    "!k64wr": {
+    "!k64any": {
         "cooldown": 60,
-        "return": "I got the Kirby 64 100% WR on February 1, 2020 in a time of 1:07:46! Check it out here on YT -> https://youtu.be/dvTUyNCJZxw"
+        "return": "I got the Kirby 64 Any% WR on June 9, 2020 in a time of 58:33! Check it out here on YT -> https://youtu.be/47hYUUAyu5g"
+    },
+    "!k64hundo": {
+        "cooldown": 60,
+        "return": "I got my Kirby 64 100% PB on February 1, 2020 in a time of 1:07:46! Check it out here on YT -> https://youtu.be/dvTUyNCJZxw"
     },
     "!kylf": {
         "cooldown": 60,
@@ -53,7 +73,7 @@
     },
     "!legends": {
         "cooldown": 60,
-        "return": "Users who have greatly improved some of my playthroughs through helpful tips and advice are: itspieflavor (Tales of Symphonia), BlasianMaestro (Mega Man X), & dreadpirateht (Final Fantasy VIII)"
+        "return": "Users who have greatly improved some of my playthroughs through helpful tips and advice are: itspieflavor (Tales of Symphonia & simping first 10k bit donation), BlasianMaestro (Mega Man X), & dreadpirateht (Final Fantasy VIII)"
     },
     "!lotus": {
         "cooldown": 60,
@@ -63,13 +83,9 @@
         "cooldown": 60,
         "return": "SwiftRage https://soundcloud.com/seth-joy/cheese05-ovah-trap-remix SwiftRage (courtesy of cheese FeelsOkayMan )"
     },
-    "!plans": {
+    "!pbrng": {
         "cooldown": 60,
-        "return": "Current stream plans: Persona 5 platinum trophy -> Paper Mario: TTYD First playthrough & Kirby 64 Any% Learning -> Begin Persona 5 Royal playthrough (March 31st)"
-    },
-    "!playtwos": {
-        "cooldown": 60,
-        "return": "In an attempt to keep things s p i c y & fresh, I will be alternating between one longer, more intense game and one shorter, simpler game at a time! Current pairing: Persona 5 (Long) / Donkey Kong Country 3 (Short)"
+        "return": "Best Whispy, Bad Pix, 2nd try Rick, Below Average Acro, Parasol, Best Magman, Great Sparky, Fast 5-cycle HR, Spark & Cutter MM w/ Bad Execution & 2-cycle Fire, 1-cycle Zero2"
     },
     "!sgdq2019": {
         "cooldown": 60,
@@ -79,12 +95,40 @@
         "cooldown": 60,
         "return": "NiceMoves https://www.youtube.com/watch?v=_wjFahULCK8 NiceMoves"
     },
+    "!sr": {
+        "cooldown": 60,
+        "return": "haha"
+    },
+    "!timesave": {
+        "cooldown": 60,
+        "return": "Big remaining timesaves in K64 100%: 2-2 (3s), Pix (4s), 3-3 (3s), 3-4 (9s), 4-2 (4s), 4-3 (3s), 5-1 (3s), HR (8s), MM (5s) | 40s total | Final goal time: sub-1:07:30"
+    },
+    "!track": {
+        "cooldown": 60,
+        "return": "Track PRs: [Indoor] 6.97s (60m - school record), 22.15s (200m - school record), 35.2s (300m - school record), 49.97s (400m), 1:30.57 (4x200m), 3:18.31 (4x400m - school record) | [Outdoor] 11.01s (100m), 22.02s (200m), 49.54s (400m), 5:17 (mile), 41.41s (4x100m - school record), 3:17.2 (4x400m)"
+    },
     "!tumblingdown": {
         "cooldown": 60,
-        "return": "/me I know, I know I've let you down FeelsBadMan \ud83d\udd6f\ufe0f I've been a fool to myself FeelsBadMan \ud83d\udd6f\ufe0f I thought that I could live for no one else FeelsBadMan \ud83d\udd6f\ufe0f But now through all the hurt and pain FeelsBadMan \ud83d\udd6f\ufe0f It's time for me to respect FeelsBadMan \ud83d\udd6f\ufe0f The ones who love me more than anything FeelsBadMan \ud83d\udd6f\ufe0f So with sadness in my heart FeelsBadMan \ud83d\udd6f\ufe0f Feel the best thing I could do FeelsBadMan \ud83d\udd6f\ufe0f Is end it all and leave forever FeelsBadMan \ud83d\udd6f"
+        "return": "/me I know, I know I've let you down FeelsBadMan \ud83d\udd6f I've been a fool to myself FeelsBadMan \ud83d\udd6f I thought that I could live for no one else FeelsBadMan \ud83d\udd6f But now through all the hurt and pain FeelsBadMan \ud83d\udd6f It's time for me to respect FeelsBadMan \ud83d\udd6f The ones who love me more than anything FeelsBadMan \ud83d\udd6f So with sadness in my heart FeelsBadMan \ud83d\udd6f Feel the best thing I could do FeelsBadMan \ud83d\udd6f Is end it all and leave forever FeelsBadMan \ud83d\udd6f"
+    },
+    "!tumblingdown2": {
+        "cooldown": 60,
+        "return": "/me What's done is done, it feels so bad FeelsBadMan \ud83d\udd6f What once was happy, now is sad FeelsBadMan \ud83d\udd6f I'll never love again, my world is ending FeelsBadMan \ud83d\udd6f I wish, that I could turn back time FeelsBadMan \ud83d\udd6f cause now the guilt is all mine FeelsBadMan \ud83d\udd6f Can't live without the trust from those you love FeelsBadMan \ud83d\udd6f I know, we can't forget the past FeelsBadMan \ud83d\udd6f You can't forget love and pride FeelsBadMan \ud83d\udd6f"
+    },
+    "!tumblingdown3": {
+        "cooldown": 60,
+        "return": "/me Because of that, it's killing me inside FeelsBadMan \ud83d\udd6f It all returns to nothing FeelsBadMan \ud83d\udd6f It all comes TUMBLING DOWN, TUMBLING DOWN, TUMBLING DOOOOOWN FeelsBadMan \ud83d\udd6f It all returns to nothing FeelsBadMan \ud83d\udd6f I just keep LETTING ME DOWN, LETTING ME DOWN, LETTING ME DOOOOOWN FeelsBadMan \ud83d\udd6f"
+    },
+    "!turnorder": {
+        "cooldown": 60,
+        "return": "Bad"
     },
     "!upwardsfire": {
         "cooldown": 60,
         "return": "FeelsWeirdMan"
+    },
+    "!wr": {
+        "cooldown": 60,
+        "return": "Splits FeelsGoodMan"
     }
 }

@@ -1,3 +1,5 @@
+import re
+
 def get_badges(line):
     """
     Gathers a list of all of the badges that a user has in the channel.
@@ -29,3 +31,40 @@ def get_message(line):
     """
     msg = line.split('PRIVMSG', 1)[1].split(':', 1)[1].split('\r')[0].split(' ')
     return msg
+
+
+def bits_parse(line):
+    temp = line.split(' :')
+    try:
+        return int((re.findall(r';bits=(.*?);', temp[0]))[0])
+    except:
+        return None
+
+
+def gift_sub_parse(line):
+    sender = re.findall(r'display-name=(.*?);', line)[0]
+    recipient = re.findall(r'msg-param-recipient-display-name=(.*?);', line)[0]
+    total_gift_subs = int(re.findall(r'msg-param-sender-count=(.*?);', line)[0])
+    tier = re.findall(r'msg-param-sub-plan=(.*?);', line)[0]
+    return (sender, recipient, total_gift_subs, tier)
+
+
+def sub_parse(line):
+    subscriber = re.findall(r'display-name=(.*?);', line)[0]
+    tier = re.findall(r'msg-param-sub-plan=(.*?);', line)[0]
+    return (subscriber, tier)
+
+
+def resub_parse(line):
+    subscriber = re.findall(r'display-name=(.*?);', line)[0]
+    duration = int(re.findall(r'msg-param-months=(.*?);', line)[0])
+    tier = re.findall(r'msg-param-sub-plan=(.*?);', line)[0]
+    return (subscriber, duration, tier)
+
+
+def parse_yt_link(line):
+    url = re.findall(r'http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)(&(amp;)?‌​[\w\?‌​=]*)?', line)
+    try:
+        return url[0][0]
+    except:
+        return 'Could not parse YT link FeelsBadMan'

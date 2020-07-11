@@ -1,7 +1,7 @@
 import os
 import json
 
-cmdFile = os.path.dirname(os.path.realpath(__file__)) + '/commandsBasic.txt'
+cmdFile = f'{os.path.dirname(os.path.realpath(__file__))}/commandsBasic.txt'
 
 def addcomm(cmd_JSON, alias, msg):
     """Add a new bot command."""
@@ -10,7 +10,7 @@ def addcomm(cmd_JSON, alias, msg):
     else:
         try:
             if cmd_JSON[alias]:
-                return 'Command {0} already exists.'.format(alias)
+                return f'Command "{alias}" already exists.'
         except:
             pass
 
@@ -20,7 +20,7 @@ def addcomm(cmd_JSON, alias, msg):
         with open(cmdFile, 'w+', encoding = 'utf-8') as f:
             f.write(json.dumps(cmd_JSON, indent=4, sort_keys=True))
             
-        return 'Added command "{0}" FeelsOkayMan 👍'.format(str(alias).lower())
+        return f'Added command "{str(alias).lower()}" FeelsOkayMan 👍'
 
 
 def delcomm(cmd_JSON, alias):
@@ -32,12 +32,12 @@ def delcomm(cmd_JSON, alias):
             if cmd_JSON[alias]:
                 cmd_JSON.pop(alias, None)
         except:
-            return 'Command {0} does not exist.'.format(alias)
+            return f'Command "{alias}" does not exist.'
 
         with open(cmdFile, 'w+', encoding = 'utf-8') as f:
             f.write(json.dumps(cmd_JSON, indent=4, sort_keys=True))
             
-        return 'Deleted command "{0}" madnakS 👎'.format(alias)
+        return f'Deleted command "{alias}" madnakS 👎'
 
 
 def editcomm(cmd_JSON, alias, new_msg):
@@ -49,9 +49,9 @@ def editcomm(cmd_JSON, alias, new_msg):
             if cmd_JSON[alias]:
                 cmd_JSON[alias] = {'cooldown': 60, 'return': ' '.join(new_msg)}
         except:
-            return 'Command {0} does not exist.'.format(alias)
+            return f'Command "{alias}" does not exist.'
 
         with open(cmdFile, 'w+', encoding = 'utf-8') as f:
             f.write(json.dumps(cmd_JSON, indent=4, sort_keys=True))
 
-        return 'Edited command "{0}" FeelsOkayMan 👍'.format(alias)
+        return f'Edited command "{alias}" FeelsOkayMan 👍'
