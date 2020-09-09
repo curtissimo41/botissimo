@@ -1,4 +1,4 @@
-from Socket import send_message
+from socketConfig import send_message
 
 def join_room(s):
     readbuffer = ''

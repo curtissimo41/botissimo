@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from Initialize import join_room
 from readInput import get_badges, get_user, get_message, parse_yt_link
 from Settings import CHANNEL, BANNEDTERMS, GAMES_DICT, YT_BANLIST
-from Socket import open_socket, send_message
+from socketConfig import open_socket, send_message
 from timeBasedModule import runTBM, cmdsOnCooldown
 
 import helpers
@@ -36,7 +36,7 @@ class Botissimo:
 		self.run(s, readbuffer)
 
 	# --------------------------------------------------------------------------
-	# ------------------------------Bot Functions-------------------------------
+	# --------------------------Built-In Functions------------------------------
 	# --------------------------------------------------------------------------
 	def bannedTermTimeout(self, s, user):
 		timeoutMsg = f'/timeout {user} 300'
@@ -66,7 +66,11 @@ class Botissimo:
 			send_message(s, 'Not following? I see how it is FeelsWeirdMan')
 		else:
 			send_message(s, f'{user} has been following {CHANNEL} for {soup}.')
-		
+
+	def comm_userLastLogin(self, s, username):
+		results = helpers.get_user_info(username)
+		send_message(s, results)
+
 	def comm_sudoku(self, s, user):
 		reply = f'/timeout {user} 5'
 		send_message(s, reply)
@@ -116,11 +120,12 @@ class Botissimo:
 			msg = get_message(line)
 			badges = get_badges(line)
 		except:
+			print(f'Line: {line}')
 			return
 
 		print(f'{str(user)}: {str(msg).encode("utf-8")}\n')
 
-		if " ".join(msg[0:]) == 'yo gl' and 'yo gl' not in cmdsOnCooldown:
+		if (" ".join(msg[0:]) == 'yo gl' or " ".join(msg[0:]) == 'yo gI') and 'yo gl' not in cmdsOnCooldown:
 			send_message(s, 'yo thanks FeelsOkayMan 👍')
 			cmdsOnCooldown['yo gl'] = int(time.time()) + 60
 
@@ -129,11 +134,11 @@ class Botissimo:
 				self.bannedTermTimeout(s, user)
 				break
 
-			elif 'youtube' in msg[i] or 'youtu.be' in msg[i]:
+			elif 'youtube' in msg[i] or 'youtu.be' in msg[i]:  # this check could be implemented better
 				try:
 					yt_code = parse_yt_link(msg[i])
 					if yt_code in YT_BANLIST:
-						send_message(s, 'Nice try...except that it wasn\'t FeelsWeirdMan')
+						send_message(s, 'Nice try...except that it wasn\'t FeelsWeirdMan (video is banned)')
 						break
 					vidMeta = helpers.get_yt_metadata(yt_code)
 					send_message(s, f'{user} linked the video "{vidMeta[0]}", uploaded by {vidMeta[1]} ({vidMeta[2]} '
@@ -153,6 +158,12 @@ class Botissimo:
 
 				elif msg[i] == '!followage':
 					self.comm_followage(s, user)
+
+				elif msg[i] == '!lastlogin':
+					try:
+						self.comm_userLastLogin(s, msg[1])
+					except:
+						send_message(s, 'Account not found.')
 
 				elif msg[i] == '!sudoku':
 					self.comm_sudoku(s, user)

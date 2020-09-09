@@ -43,9 +43,17 @@
         "cooldown": 60,
         "return": "Tuturu https://discord.gg/T7Bhj9z Tuturu"
     },
+    "!dontdance": {
+        "cooldown": 60,
+        "return": "OuttaPocket sumSmash tiredPepe OuttaPocket sumSmash tiredPepe OuttaPocket sumSmash tiredPepe OuttaPocket sumSmash tiredPepe OuttaPocket sumSmash tiredPepe OuttaPocket sumSmash"
+    },
     "!dontworry": {
         "cooldown": 60,
         "return": "FeelsOkayMan https://clips.twitch.tv/HardLuckyWormUncleNox FeelsOkayMan"
+    },
+    "!dothething": {
+        "cooldown": 60,
+        "return": "Sorry, but the thing hasn't been implemented yet."
     },
     "!drop": {
         "cooldown": 60,
@@ -79,13 +87,17 @@
         "cooldown": 60,
         "return": "slash ban Lotus WutFace"
     },
+    "!movienight": {
+        "cooldown": 60,
+        "return": "Movie Nights are occasionally held in my Discord server on Sunday nights around 7 or 8pm EST! The movies are typically anime, but this can change if another type of movie is recommended and desired to watch. Be sure to join our server (https://discord.gg/T7Bhj9z) and let me know if you want in. Right now, there is no movie planned for this week, so I will update this command once that changes."
+    },
     "!over": {
         "cooldown": 60,
         "return": "SwiftRage https://soundcloud.com/seth-joy/cheese05-ovah-trap-remix SwiftRage (courtesy of cheese FeelsOkayMan )"
     },
     "!pbrng": {
         "cooldown": 60,
-        "return": "Best Whispy, Bad Pix, 2nd try Rick, Below Average Acro, Parasol, Best Magman, Great Sparky, Fast 5-cycle HR, Spark & Cutter MM w/ Bad Execution & 2-cycle Fire, 1-cycle Zero2"
+        "return": "Perfect Whispy, Spin Cycle Pix, 4th try Rick & bad movement, Above Average Acro, Top Hat, 3-cycle first phase Magman, Short hop & attack Sparky, Slow 5-cycle HR, 1-cycle everything MM, 1-cycle Zero2"
     },
     "!sgdq2019": {
         "cooldown": 60,
@@ -98,6 +110,10 @@
     "!sr": {
         "cooldown": 60,
         "return": "haha"
+    },
+    "!subtember": {
+        "cooldown": 60,
+        "return": "For the month of September, all new 1-month subs are 20% off, new 3-month subs are 25% off, and new 6-month subs are 30% off!! Get yourself a nice discount on a Team Dai-Gurren logo sub badge in chat and 5 great emotes to use anywhere! curtis8A curtis8Bruh curtis8Brushed curtis8Gasm curtis8W (P.S. - you can cancel your current sub and still get these benefits FeelsOkayMan )"
     },
     "!timesave": {
         "cooldown": 60,
@@ -119,13 +135,13 @@
         "cooldown": 60,
         "return": "/me Because of that, it's killing me inside FeelsBadMan \ud83d\udd6f It all returns to nothing FeelsBadMan \ud83d\udd6f It all comes TUMBLING DOWN, TUMBLING DOWN, TUMBLING DOOOOOWN FeelsBadMan \ud83d\udd6f It all returns to nothing FeelsBadMan \ud83d\udd6f I just keep LETTING ME DOWN, LETTING ME DOWN, LETTING ME DOOOOOWN FeelsBadMan \ud83d\udd6f"
     },
-    "!turnorder": {
-        "cooldown": 60,
-        "return": "Bad"
-    },
     "!upwardsfire": {
         "cooldown": 60,
         "return": "FeelsWeirdMan"
+    },
+    "!whispy": {
+        "cooldown": 60,
+        "return": "\ud83d\udca8 \ud83c\udf4e \ud83d\udca8 curtisMad \ud83d\udca8 \ud83c\udf4e \ud83d\udca8"
     },
     "!wr": {
         "cooldown": 60,

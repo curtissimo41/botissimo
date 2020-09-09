@@ -14,7 +14,6 @@ import gdata.youtube.service
 yt_service = gdata.youtube.service.YouTubeService()
 yt_service.ssl = True
 
-
 def edit_cmds(msg, cmd_JSON):
 	if msg[0] == '!addcomm':
 		try:
@@ -87,8 +86,20 @@ def get_stream_title():
 	return BeautifulSoup(response.content, "html.parser").get_text()
 
 
+def get_user_info(username):
+	url = f'https://api.twitch.tv/kraken/users?login={username}'
+	headers = {
+		"Client-ID": f"{CLIENT_ID}",
+		"Accept": "application/vnd.twitchtv.v5+json",
+		"Authorization": f"OAuth {PASS.split(':')[1]}"
+	}
+	data = requests.get(url=url, headers=headers)
+	return json.loads(BeautifulSoup(data.content, "html.parser").get_text())['users'][0]['updated_at'].split('T')[0]
+
+
 def get_yt_metadata(url):
-	videoInfo = f'https://www.googleapis.com/youtube/v3/videos?id={url}&part=contentDetails&key={YT_API_KEY}&fields=items(id,snippet(channelTitle,title),statistics)&part=snippet,statistics'
+	videoInfo = f'https://www.googleapis.com/youtube/v3/videos?id={url}&part=contentDetails&key={YT_API_KEY}&fields=' \
+				f'items(id,snippet(channelTitle,title),statistics)&part=snippet,statistics'
 	response = requests.get(videoInfo)
 	videoData = json.loads(BeautifulSoup(response.content, "html.parser").get_text())['items'][0]
 	
@@ -113,6 +124,9 @@ def set_current_game(game):
 	}
 	requests.put(url=url, headers=headers, data=data)
 
+	global currGame
+	currGame = game
+
 	return 'Stream category updated FeelsOkayMan 👍'
 
 
@@ -128,6 +142,5 @@ def set_current_title(title):
 		'channel[game]': currGame
 	}
 	requests.put(url=url, headers=headers, data=data)
-
 
 currGame = get_current_game()

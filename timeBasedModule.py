@@ -1,5 +1,4 @@
-from Socket import send_message
-
+from socketConfig import send_message
 import time
 
 
